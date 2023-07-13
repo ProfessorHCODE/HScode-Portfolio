@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Perosonal Blog Website</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/pattern-2.svg">
+  <link rel="preload" as="image" href="./assets/images/pattern-3.svg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="119" height="37" alt="Wren logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" width="119" height="37" alt="Wren logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link hover-1" data-nav-toggler>Home</a>
+          </li>
+
+          <li>
+            <a href="#topics" class="navbar-link hover-1" data-nav-toggler>Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#featured" class="navbar-link hover-1" data-nav-toggler>Project</a>
+          </li>
+
+          <li>
+            <a href="#recent" class="navbar-link hover-1" data-nav-toggler>About Me</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link hover-1" data-nav-toggler>Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            
+
+            <h1 class="headline headline-1 section-title">
+              Hi, I’m <span class="span">Heiron Santillan</span>
+            </h1>
+           
+
+            <p class="hero-text">
+              To obtain a full-time position that utilizes my knowledge and skills
+in a professional environment, while providing me the opportunity
+for professional growth and development.
+
+            </p>
+
+           
+             
+              
+                <a href="#" class="btn btn-primary">Download CV</a>
+
+          </div>
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/hero-banner.png" width="327" height="490" alt="Wren Clark" class="w-100">
+
+            <img src="./assets/images/pattern-2.svg" width="27" height="26" alt="shape" class="shape shape-1">
+
+            <img src="./assets/images/pattern-3.svg" width="27" height="26" alt="shape" class="shape shape-2">
+
+          </div>
+
+          <img src="./assets/images/shadow-1.svg" width="500" height="800" alt="" class="hero-bg hero-bg-1">
+
+          <img src="./assets/images/shadow-2.svg" width="500" height="500" alt="" class="hero-bg hero-bg-2">
+
+        </div>
+        
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TOPICS
+      -->
+
+      <section class="topics" id="topics" aria-labelledby="topic-label">
+        <div class="container">
+
+          <div class="card topic-card">
+
+            <div class="card-content">
+
+              <h2 class="headline headline-2 section-title card-title" id="topic-label">
+                <span>Portfolio</span>
+              </h2>
+
+              <p class="card-text">
+                Capturing the beauty of your journey....
+              </p>
+
+              <div class="btn-group">
+                <button class="btn-icon" aria-label="previous" data-slider-prev>
+                  <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+                </button>
+
+                <button class="btn-icon" aria-label="next" data-slider-next>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+
+            </div>
+
+            <div class="slider" data-slider>
+              <ul class="slider-list" data-slider-container>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic-1.png" width="507" height="618" loading="lazy" alt="Sport"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Sport</span>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic-2.png" width="507" height="618" loading="lazy" alt="Travel"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Travel</span>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic-3.png" width="507" height="618" loading="lazy" alt="Design"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Design</span>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic-4.png" width="507" height="618" loading="lazy" alt="Movie"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Movie</span>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic-5.png" width="507" height="618" loading="lazy" alt="Lifestyle"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Lifestyle</span>
+                    </div>
+
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURED POST
+      -->
+
+      <section class="section feature" aria-label="feature" id="featured">
+        <div class="container">
+
+          <h2 class="headline headline-2 section-title">
+            <span class="span">My Project</span>
+          </h2>
+
+          <p class="section-text">
+            Creativity brought to life.
+          </p>
+
+          <ul class="feature-list">
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/featured-1.png" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#Travel</a>
+
+                      <a href="#" class="span hover-2">#Lifestyle</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">December 12 2021</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Self-observation is the first step of inner unfolding
+                    </a>
+                  </h3>
+
+                
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/featured-2.png" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#Design</a>
+
+                      <a href="#" class="span hover-2">#Movie</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">6 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Self-observation is the first step of inner unfolding
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/featured-3.png" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#Design</a>
+
+                      <a href="#" class="span hover-2">#Movie</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">6 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Self-observation is the first step of inner unfolding
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/featured-4.png" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#Design</a>
+
+                      <a href="#" class="span hover-2">#Movie</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">6 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Self-observation is the first step of inner unfolding
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/featured-5.png" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#Design</a>
+
+                      <a href="#" class="span hover-2">#Movie</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">6 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Self-observation is the first step of inner unfolding
+                    </a>
+                  </h3>
+
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-secondary">
+            <span class="span">Show More Posts</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+
+        <img src="./assets/images/shadow-3.svg" width="500" height="1500" loading="lazy" alt="" class="feature-bg">
+
+      </section>
+
+
+      <!-- 
+        - #RECENT POST
+      -->
+
+      <section class="section recent-post" id="recent" aria-labelledby="recent-label">
+        <div class="container">
+
+          <div class="post-main">
+
+            <h2 class="headline headline-2 section-title">
+              <span class="span">My Journey</span>
+            </h2>
+
+            <p class="section-text">
+              Adventure Is A Path.
+            </p>
+
+            <ul class="grid-list">
+
+
+              <div class="card aside-card">
+
+                <h3 class="headline headline-2 aside-title">
+                  Education
+                </h3>
+  
+                <ul class="comment-list">
+  
+                  <li>
+                    <div class="comment-card">
+
+                      <div class="profile-card">
+                        <figure class="profile-banner img-holder">
+                          <img src="./assets/images/school logo.jpg" width="32" height="32" loading="lazy" alt="Jane Cooper">
+                        </figure>
+  
+                        <div>
+                          <p class="card-title">ADVANCE CENTRAL COLLAGE</p>
+  
+                          <time class="card-date" datetime="2022-04-15">2019 - 2022</time>
+                        </div>
+                      </div>
+  
+                      <blockquote class="card-text">
+                        “ Bachelor of Science in Information System “
+                      </blockquote>
+  
+                    
+  
+                    </div>
+                  </li>
+  
+                  <li>
+                    <div class="comment-card">
+  
+                      <div class="profile-card">
+                        <figure class="profile-banner img-holder">
+                          <img src="./assets/images/school logo1.jpg" width="32" height="32" loading="lazy" alt="Katen Doe">
+                        </figure>
+  
+                        <div>
+                          <p class="card-title">Concepcion L. Cazenas Memorial School
+                          </p>
+  
+                          <time class="card-date" datetime="2022-04-15">2016 - 2018</time>
+                        </div>
+                      </div>
+
+                      <blockquote class="card-text">
+                        “ Technical Vocational Livelihood Track “
+                      </blockquote>
+  
+                      
+  
+                    </div>
+                  </li>
+  
+                  
+  
+                </ul>
+  
+              </div>
+
+              <div class="card aside-card">
+
+                <h3 class="headline headline-2 aside-title">
+                  Work Experience
+                </h3>
+  
+                <ul class="comment-list">
+  
+                  <li>
+                    <div class="comment-card">
+
+                      <div class="profile-card">
+                        <figure class="profile-banner img-holder">
+                          <img src="./assets/images/atos.jpg" width="32" height="32" loading="lazy" alt="Jane Cooper">
+                        </figure>
+  
+                        <div>
+                          <p class="card-title">ATOS COMPANY</p>
+                          <P>
+                            Technical Help Desk Associate
+                          </P>
+                          <time class="card-date" datetime="2022-04-15">1 Month Training</time>
+                        </div>
+                      </div>
+  
+                      <blockquote class="card-text">
+                        “ During the one-month training program, I gained valuable
+                        experience in Providing technical assistance to end-users via
+                        phone, email, and chat, troubleshooting hardware and software
+                        issues. I successfully completed various training modules and
+                        projects, demonstrating my ability to apply theoretical knowledge
+                        to practical scenarios. Throughout the program, I actively
+                        participated in team-based activities, enhancing my collaboration
+                        and communication skills. “
+                      </blockquote>
+  
+                    
+  
+                    </div>
+                  </li>
+                  
+  
+                </ul>
+  
+              </div>
+              
+              <div class="card aside-card">
+
+                <h3 class="headline headline-2 aside-title">
+                  Hobbies and Skills
+                </h3>
+  
+                <ul class="comment-list">
+  
+                  <li>
+                    <div class="comment-card">
+
+                      
+  
+                      <blockquote class="card-text">
+                        - Playing Online games<br>
+                        - Playing Basketball<br>
+                        - Web Developer using wordpress<br>
+                        - Understand Computer hardware
+                        and software<br>
+                        - Computer knowledge like Adobe,
+                        Microsoft and Google drive 
+                      </blockquote>
+  
+                    
+  
+                    </div>
+                  </li>
+                  
+  
+                </ul>
+  
+              </div>
+              
+
+
+              
+
+              
+
+              
+
+              
+
+            </ul>
+
+          </div>
+
+
+          
+          <div class="post-aside grid-list">
+
+            <div class="card aside-card insta-card">
+
+              <a href="#" class="logo">
+                <img src="./assets/images/logo.svg" width="119" height="37" loading="lazy" alt="Wren logo">
+              </a>
+
+              <p class="card-text">
+                Software and Website that I use
+              </p>
+
+              <ul class="insta-list">
+
+                <li>
+                  <a href="https://www.adobe.com/products/aftereffects/free-trial-download.html" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/insta-post-1.jpg" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.adobe.com/products/premiere.html" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/insta-post-2.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.adobe.com/products/photoshop.html?promoid=RBS7NL7F&mv=other" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/insta-post-3.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://vscode.dev/" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/insta-post-4.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://openai.com/" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/insta-post-5.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.photopea.com/" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/insta-post-6.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.apachefriends.org/download.html" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/insta-post-7.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://codepen.io/" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/insta-post-8.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://github.com/" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/insta-post-9.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+
+            
+            
+
+            <div class="card aside-card">
+
+              <h3 class="headline headline-2 aside-title">
+                Programming <br>
+                Language
+              </h3>
+
+              <ul class="comment-list">
+
+                <li>
+                  <div class="popular-card">
+
+                    <li>
+                      <button class="card tag-btn">
+                        <img src="./assets/images/html5.png" width="32" height="32" loading="lazy" alt="Travel">
+        
+                        <div class="card-content">
+
+                          <h4 class="headline headline-4 card-title">
+                            <a href="#" class="link hover-2">HTML 5</a>
+                          </h4>
+
+    
+                        </div>
+                      </button>
+                    </li>
+                    <br>
+                    <li>
+                      <button class="card tag-btn">
+                        <img src="./assets/images/css3.png" width="32" height="32" loading="lazy" alt="Travel">
+        
+                        <div class="card-content">
+
+                          <h4 class="headline headline-4 card-title">
+                            <a href="#" class="link hover-2">CSS 3</a>
+                          </h4>
+
+    
+                        </div>
+                      </button>
+                    </li>
+                    <br>
+                    <li>
+                      <button class="card tag-btn">
+                        <img src="./assets/images/python.png" width="32" height="32" loading="lazy" alt="Travel">
+        
+                        <div class="card-content">
+
+                          <h4 class="headline headline-4 card-title">
+                            <a href="#" class="link hover-2">PYTHON</a>
+                          </h4>
+
+    
+                        </div>
+                      </button>
+                    </li>
+
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="contact" aria-label="contact" id="contact">
+    <div class="container">
+
+      <div class="card footer">
+
+        <div class="section footer-top">
+
+          <div class="footer-brand">
+
+            <a href="#" class="logo">
+              <img src="./assets/images/logo.svg" width="119" height="37" loading="lazy" alt="Wren logo">
+            </a>
+
+            <p class="footer-text">
+              When an unknown prnoto sans took a galley and scrambled it to make specimen book not only five When an
+              unknown prnoto sans took a galley and scrambled it to five centurie.
+            </p>
+
+            <p class="footer-list-title">Address</p>
+
+            <address class="footer-text address">
+              123 Main Street <br>
+              New York, NY 10001
+            </address>
+
+          </div>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Categories</p>
+
+            <ul>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Action</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Business</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Adventure</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Canada</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">America</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Curiosity</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Animal</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Dental</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Biology</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Design</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Breakfast</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Dessert</a>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="footer-list">
+            <div class="card aside-card">
+        
+              <h2 class="section__title">
+                Contact Me
+              </h2>
+        
+              <div class="contact__container container grid">
+                <form action="" class="contact__form" id="contact-form">
+                  <div class="contact__group">
+        
+                    <div class="input-wrapper">
+                    <input type="text" name="user_name" required placeholder="Enter your name" class="input-field">
+                    <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                    </div>
+        
+                    <div class="input-wrapper">
+                    <input type="email" name="user_email" required placeholder="Enter your email" class="input-field">
+                    <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                    </div>
+                  </div>
+        
+                  <textarea name="user_project" required placeholder="Enter your message" class="contact__input"></textarea>
+        
+                  <p class="contact__message" id="contact-message"></p>
+        
+                  <button type="submit" class="btn btn-primary">
+                    Send Message
+                  </button>
+                </form>
+              </div>
+              
+        
+            </div>
+          </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+          <p class="copyright">
+            &copy; Developed by <a href="#" class="copyright-link">HScode</a>
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+
+                <span class="span">Twitter</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+
+                <span class="span">LinkedIn</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+
+                <span class="span">Instagram</span>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+      var typed = new Typed(".input", {
+          strings:["Heiron Santillan.","Frontend Developer.","Web Developer.","Photographer.","Video Editor."],
+          typeSpeed: 90,
+          backspeed: 80,
+          loop:true
+      });
+  </script>
+
+  <!---email js-->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<!---main js--->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
